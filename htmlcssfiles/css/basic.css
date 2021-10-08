@@ -1,0 +1,19 @@
+
+body{
+    background-color:thistle;
+}
+.weather{
+    background-color: cyan;
+}
+p{
+    color: white;
+}
+a[target="_blank"]{
+    background-color: tomato;
+}
+a href{
+    color: teal;
+}
+    p[title="paradata"]{
+    background-color: burlywood;
+}

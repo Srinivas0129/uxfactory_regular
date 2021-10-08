@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    border: 15px solid black;
+}
+header{
+    background-color: tomato;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    font-style: italic;
+}
+header a{
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+}
+.des h1{
+    box-shadow: 10px 5px 13px 15px orange;
+}
+section:nth-of-type(1) ul li:nth-child(3){
+       background-color: brown;
+}
+header ul li{
+display: inline-block;
+border:2px dotted white;
+padding: 5px;
+border-radius: 25px;
+transition:.5s;
+text-align: center;
+}
+header a{
+    text-align: center;
+}
+header ul li:hover{
+    background-color: teal;
+    background-position:left;
+}
+.des{
+    background-color: yellowgreen;
+    height: 250px;
+    padding:70px;
+    text-align: center;
+}
+section.blog{
+    display: flex;
+    padding: 5px;
+    box-sizing: border-box;
+}
+div h3{
+    border-left:7px solid tomato ;
+    background-color: cadetblue;
+    padding: 5px;
+}
+section.blog input{
+    padding: 5px 35px;
+    border-radius: 25px;
+    background-color: tomato;
+    color: white;
+}
+#con{
+    text-align: center;
+    background-color: violet;
+    padding: 55px;
+}
+#con h1{
+    font-style: italic;
+    padding: 10px;
+}
+#con input{
+    padding: 5px 50px;
+    border-radius: 25px;
+    background-color: darkkhaki;
+    color: white;
+    text-transform: capitalize;
+}
+div.desE{
+    text-align: center;
+    font-size: 25px;
+}
+div.desE img{
+    height: 250px;
+}
+div.desF h1{
+    padding-left: 25px;
+}
+div#try h3{
+    border-left:5px solid violet !important;
+}
+footer{
+    text-align: center;
+    background-color: paleturquoise;
+}

@@ -1,0 +1,8 @@
+body{
+    background-image: url(../images/trend1.jpg),url(../images/trend2.jpg),
+     url(../images/trend3.jpg), url(../images/trend4.jpg), url(../images/trend5.jpg);
+    background-size: 550px 280px,450px 250px,550px 230px,550px 250px;
+    background-repeat: no-repeat;
+    /* background-position:0% 0%,100% 0%, 50% -120%, 0% -200%, 100% -220%; */
+    background-position: 0px 0px, 1100px 0px, 550px 270px,10px 500px,1100px 500px ; 
+}

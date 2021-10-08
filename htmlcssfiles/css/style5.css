@@ -1,0 +1,54 @@
+*{
+    marker: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 10px 0px;
+    padding: 0px;
+    background-color: cadetblue;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: burlywood;
+}
+nav h1{
+    color: white;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding:5px 10px;
+    border-radius: 25px;
+    position: relative;
+}
+nav ul li:hover{
+    background-color: cyan;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li ul{
+    display: none;
+}
+nav ul li:hover>ul{
+    display: block;
+    position: absolute;
+}
+nav ul ul ul{
+    top: 0px;
+    margin-left: 50px;
+}
+nav input{
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+.home{
+    display: flex;
+    padding-top: 250px;
+    color: white;
+  justify-content: center;
+}

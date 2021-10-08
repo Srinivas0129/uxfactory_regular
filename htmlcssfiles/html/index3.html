@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="../js/sample.js"></script>
+</head>
+<body>
+    <span id="math_container"></span>
+    <p id="time-container"></p>
+    <p id="time"></p>
+    <!-- <script>
+        var x=3;
+        var y=5;
+        var z=x+y;
+        document.write(z)
+    </script>
+    <script>
+        var fname='Srinivas ';
+        var lname='Marriyavula';
+        var fullName= fname + lname ;
+        document.write(fullName);
+    </script><br>
+    <script>
+        var name='srinivas',
+            age='24',
+            work='software developer';
+     document.write(work +' '+ age);
+     var obj1 ={
+            name:'srinivas'
+     }
+     var obj2={... obj1,
+            age:'24',
+            sal:'30000',
+            work:'software developer'
+     };
+     console.log(obj2.age);
+     </script>
+     <script>
+        //   var _Date = new Date(1998,8,2,6,30,23,50)
+        setInterval(function() {
+    var _date = new Date();
+    document.getElementById("time-container").innerHTML = _date;
+}, 1000);
+     </script>
+     <script>
+         function getTime(){
+             var today=new Date();
+             var h=today.getHours();
+             var m=today.getMinutes();
+             var s=today.getSeconds();
+             document.getElementById("time-container").innerHTML = h + ":" + m + ":" + s;
+           setInterval("getTime()",1000);
+            }
+            getTime();
+     </script>
+     <script>
+         var month = ["Jan","Feb",,,,,,,"september",,]; console.log(month[_date.getMonth()] )
+     </script>
+     <script>
+         var _name = "sun";
+          _name.length;
+          document.write(_name);
+     </script> -->
+ <p id="myPara">welcome to javascript</p>
+ <button onclick="document.getElementById('form').style='color:blue'">click here</button>
+
+ <button onclick="document.getElementById('form').style='display:none'">hide</button>
+ <button onclick="document.getElementById('form').style='display:inline'">show</button>
+
+ <div>
+<button onclick="document.getElementById('script').src='../images/bulboff.jpg'">Turn off the light</button>
+
+<img id="script" src="../images/bulboff.jpg" width="500px">
+
+<button onclick="document.getElementById('script').src='../images/bulbon.jpg'">Turn on the light</button>
+</div><br><br>
+<div id="form">
+    <form>
+        <input type="text"  > <br><br>
+        <input type="password" ><br><br>
+        <input type="submit">
+    </form>
+</div>
+    <div>
+        <div style="height: 300px; width: 300px; border: 1px solid;" id="drop-target" ondragover="onImgOver(event)" ondrop="onImgDrop(event)"></div>
+        <img id="dragbbleimg" src="../images/shoes3.jpg" draggable=true ondragstart="onImgDrag(event)" />
+        <div style="height: 300px; width: 300px; border: 1px solid;" id="drop-1" ondragover="onImgOver(event)" ondrop="onImgDrop(event)"></div>
+    </div>
+
+<div>
+<img  onmouseleave="document.getElementById('script').src='../images/bulboff.jpg'" onmouseenter="document.getElementById('script').src='../images/bulbon.jpg'" id="script">
+</div> 
+<div>
+<button onclick="document.getElementById('bulb').src='../images/bulboff.jpg'">Trun on the Bulb</button>
+    <!-- <img onmouseleave="document.getElementById('bulb').src='../images/bulboff.jpg' " onmouseenter="document.getElementById('bulb').src='../images/bulbon.jpg'" src="pic_bulboff.gif" id="bulb"  /> -->
+    <button onclick="document.getElementById('bulb').src='../images/bulbon.jpg' ">Turn off the Bulb</button>
+</div> 
+<div style="clear: both;"> Geo location :
+    <button onclick="findGeoLocation()"> Find</button>
+    <div id="geoIdentifier" style="height:300px;width:300px; border:1px solid;"></div>
+</div>
+<!-- <script>
+    function getTime(){
+        var today=new Date();
+        var h=today.getHours();
+        var m=today.getMinutes();
+        var s=today.getSeconds();
+        document.getElementById("time-container").innerHTML = h + ":" + m + ":" + s;
+      setInterval("getTime()",1000);
+       }
+       getTime();
+</script> -->
+</body>
+</html> 

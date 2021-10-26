@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var emp = [
+  {
+    name: 'Ajay',
+    id : 101,
+    age:18
+  },
+  {
+  name: 'Vijay',
+  id : 102,
+  age:18  
+  },
+  {
+   name : 'samjay',
+    id :103,
+    age : 19
+  }
+]
+let ageSmae = emp.every( items =>{
+  return items.age === 18;
+});
+console.log(ageSmae);
+
+
+var num = [5,10,15,20,25,30];
+
+let findVal = num.find(gTwenty => {
+  return gTwenty >= 20; 
+});
+
+console.log(findVal);
+
+var num = [-1,-3,0,1,1.5,2,3,5];
+
+let searchVal = num.find(gTwenty => {
+  return gTwenty >= 2; 
+});
+
+console.log(searchVal);
+var emp = [
+  {
+     name:'john',
+    id:'101',
+    age:19
+  },
+  {
+    name:'vijay',
+    id:'101',
+    age:19
+  },
+  {
+    name:'ajay',
+    id:'101',
+    age:19
+  }
+]
+let withId = emp.map( searchId => {
+  return searchId.name;
+})
+console.log(withId);
+// day 2 task 2
+
+//first assignment
+var decNum = [1.5,5,5.5,1.,5,6.5,10.5];
+const sum = Math.round(decNum.reduce((a,b)=>{
+  return a+b ;
+}));
+console.log(sum);
+ //second assignment
+ var voter = [
+  {
+    name:'srinivas',
+    age:23,
+    city:'ongole'
+  },
+  {
+    name:'manoj',
+    age:22,
+    city:'ongole'
+  },
+  {
+    name:'lovaraj',
+    age:25,
+    city:'rajahmundry'
+  },
+  {
+    name:'meenakshi',
+    age:17,
+    city:'kakinada'
+  },
+  {
+    name:'sandip',
+    age:24,
+    city:'guntur'
+  },
+  {
+    name:'upendra',
+    age:22,
+    city:'vizag'
+  }
+]
+let eList = voter.map(info => {
+ return info.age >= 18 ? info.name:'not elgible' ;                        
+  });
+console.log(eList);
+// third assignment
+ var arr = [25,55,26,75,42,85];
+ const add = arr.reduce((total,num)=>{
+   return total + num ;
+ });
+ console.log(add);
+ // fourth assignment
+var even = [20,15,18,16,25,23,17];
+ const elements = even.map( info =>{
+   return info %2 == 0 ? info + ' '  + 'even' : info + ' '  + 'odd';
+ })
+ console.log(elements);
+
+
+ // fifth assignment
+ let employee = [
+   {
+     name:'srinivas',
+     salary:30000
+   },
+   {
+     name:'manoj',
+     salary:30000
+   },
+   {
+     name:'lovaraj',
+     salary:30000
+   },
+   {
+     name:'deepak',
+     salary:30000
+   },
+   {
+     name:'meena',
+     salary:30000
+   }
+ ];
+ const totalSalary = employee.reduce((acc,sal) =>{
+   return acc + sal.salary;
+ },0);
+ 
+ console.log(totalSalary);
+
+
+ var arr = [20,24,55,68,51,3,2];
+const elem = arr.map(info =>{
+  return info %2 == 0 ? 'even':'odd';
+})
+console.log(elem);
+
+    </script>    
+</body>
+</html>

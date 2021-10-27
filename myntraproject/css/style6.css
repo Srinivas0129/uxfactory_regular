@@ -347,14 +347,14 @@ h1{
 label{
     color: black;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 } 
 .log{
     background-image: url(../images/style\ -\ Copy.jpg);
     display: block;
-    margin-top: 10%;
+    margin-top: 13%;
     margin-left: 20%;
     margin-right: 30%;
     padding: 25px;
@@ -362,6 +362,7 @@ label{
     border-radius: 15px;
     text-align: center;
     border: 2px solid black;
+    
 }
 input{
     padding: 5px 25px;
